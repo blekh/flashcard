@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Andriana Blekh">
+        <link rel="stylesheet" type = "text/css" href = "styl.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2c92542141.js" crossorigin="anonymous"></script>
+        <title> FlashCard</title>
+    </head>
+    <body>
+      <div class="slozky"> 
+      </div>
+      <div class="karticka">
+            <form id="form">
+          <label > Přední strana</label>
+            <textarea name="predniStrana" id = "predniStrana" rows="5"> </textarea> <br>
+          <label > Zadní strana</label>
+           <textarea name="zadniStrana" id = "zadniStrana" rows="5"> </textarea> <br>
+            </form>
+        <div class="kontejner1">
+            <button type="button" class="tlac" id = "nova" onclick="nova()"> <i class="fas fa-plus fa-2x"></i> </button>
+        </div>
+      </div>
+
+      <div class="ulozene" id="ulozene"> <h1> FlashCard</h1>
+        <div class="card" id="predniStranaFlash">  </div>
+          <div class="card2" id="zadniStranaFlash"> </div>
+          <div class="kontejner" >
+              <button type="button" class="tlacitko" id="skryt" onclick="skryt()"> Skrýt</button>
+              <button type="button"  class = "tlacitko" id = "zobrazit" onclick="zobraz()"> Zobrazit</button>
+          </div>
+
+      </div>
+
+      <script src="script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    </body>
+</html>

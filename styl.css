@@ -1,0 +1,154 @@
+ body {background: #FF70A6;
+     font-family: 'Ubuntu Mono', monospace;}
+
+ .blok {
+     display: flex;
+     justify-items: center;
+     justify-content: space-around;
+     margin: 250px;
+     
+ }
+ .nadpis {
+     border:10px dotted #ff875b;
+     border-radius: 55px;
+     font-size: 100px;
+     color: white;
+     font-family: 'Fredericka the Great', cursive;
+     text-align: center;
+ }
+
+ .folde {
+     color: #70D6FF;
+
+ }
+ .folde:hover   {
+    box-shadow: 17px -16px 22px 9px #FFFFFF;
+ }
+ .ser {
+     color: #E9FF70;
+ }
+.ser:hover  {
+    box-shadow: 0px 0px 31px 2px rgba(255,255,255,0.82);
+
+}
+label {
+    text-align: center;
+}
+.karticka {
+    display: flex;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.438);
+    float: left;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 60%;
+}
+textarea{
+resize: none;
+columns: 5;
+font-size: 25px;
+height: 120px;
+    width: 100%;
+
+
+}
+.strana {
+  margin: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+.ulozene {
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    padding-left: 20px;
+    width: 35%;
+    flex-direction: column;
+}
+.card{
+    display:block;
+    width:100%;
+    height: 200px;
+    flex-wrap: wrap;
+    background-image: url("notepad.png");
+    background-size: cover;
+    border: 2px solid #3d3c3c;
+    margin: 2px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #f8ead6;
+    overflow-wrap: break-word;
+}
+ .card2{
+     display:none;
+     width:100%;
+     height: 200px;
+     flex-wrap: wrap;
+     border: 2px solid #3d3c3c;
+     font-size: 25px;
+     text-align: center;
+     background-image: url("notepad.png");
+     background-color: #f8ead6;
+     background-size: cover;
+     overflow-wrap: break-word;
+     text-align: center;
+ }
+.kontejner {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+ .tlacitko {
+     background-color:#84e1bc;
+     border-radius:18px;
+     border:2px solid #057a55;
+     cursor:pointer;
+     color:#ffffff;
+     font-size:20px;
+     padding:10px 61px;
+     margin: 2px;
+     display: inline;
+     width: 250px;
+ }
+ .tlacitko:hover {
+     background-color:#057a55;
+ }
+ .tlacitko:active {
+     position:relative;
+     top:1px;
+ }
+ h1 {
+     font-size: 35px;
+     color: white;
+ }
+ label {
+     color: #FFFFFF;
+     font-size: 30px;
+ }
+ .kontejner1 {
+     display: flex;
+     justify-items: center;
+     align-items: center;
+ }
+ .tlac {
+     background-color:#84e1bc;
+     border:2px solid #057a55;
+     cursor:pointer;
+     color:#ffffff;
+     font-size:20px;
+     padding:5px 31px;
+     text-align: center;
+     width: 100px;
+     height: 85px;
+     margin: 5px;
+     border-radius: 25px;
+ }
+ #nova {
+     background-color: #F0EA48;
+ }
+
+
+#nova:hover {
+    background-color: #CEC711;
+}
